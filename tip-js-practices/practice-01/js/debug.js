@@ -1,8 +1,8 @@
 "use strict";
 
-const plannedText = "8";
-const completedText = "3";
-const additionalText = "2";
+const plannedText = "9";
+const completedText = "9";
+const additionalText = "0";
 
 const completedTotal = Number(completedText) + Number(additionalText);
 const remainingTasks = Number(plannedText) - completedTotal;
