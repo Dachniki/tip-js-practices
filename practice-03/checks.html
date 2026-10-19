@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ПР3 — Автоматические проверки</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1>Автоматические браузерные проверки (ПР3)</h1>
+    <div id="check-summary" class="check-summary">Запуск проверок...</div>
+    <h2>Текстовый протокол:</h2>
+    <pre id="check-log" class="check-log">Загрузка тестов...</pre>
+    <ul id="check-results" class="check-results"></ul>
+    <div id="test-fixture" hidden></div>
+    <iframe id="test-frame" hidden></iframe>
+  </main>
+
+  <script type="module" src="./checks/browser.checks.js"></script>
+</body>
+</html>
